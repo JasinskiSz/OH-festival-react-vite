@@ -14,6 +14,7 @@ const PageNav: React.FC = () => {
                     <NavButton link='#' text='Blog' type='link'></NavButton>
                     <NavButton link='#' text='Gdynia' type='dropdown'></NavButton>
                     <NavButton link='#' text='Gdańsk' type='dropdown'></NavButton>
+                    <NavButton link='#' text='Archiwum' type='link'></NavButton>
                     <NavButton link='#' text='FAQ' type='link'></NavButton>
                 </div>
                 <div className="icons-container">
