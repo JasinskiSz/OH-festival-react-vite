@@ -1,5 +1,27 @@
-.navbar-link {
+.nav-link-btn {
     display: flex;
     padding: 0.25rem 1.25rem;
     align-items: center;
+}
+
+.nav-link-btn div {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.nav-link-btn img {
+    width: 0.75rem;
+    height: 0.5625rem;
+}
+
+.nav-link-btn span {
+    color: var(--Black, #1F0812);
+
+    /* Desktop/Arial/Body-Medium */
+    font-family: Arial;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%; /* 1.4625rem */
 }

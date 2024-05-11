@@ -10,9 +10,11 @@ interface NavButtonProps {
 const NavButton: React.FC<NavButtonProps> = ({ type, text, link }) => {
 
     return (
-        <a className="navbar-link" href={link}>
-            <span>{text}</span>
-            {type === "dropdown" ? <img src={dropdownIcon} alt="arrow" /> : null}
+        <a className="nav-link-btn" href={link}>
+            <div>
+                <span>{text}</span>
+                {type === "dropdown" ? <img src={dropdownIcon} alt="arrow" /> : null}
+            </div>
         </a>
     )
 }
