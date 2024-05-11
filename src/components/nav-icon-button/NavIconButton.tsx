@@ -9,7 +9,7 @@ interface NavIconButtonProps {
 
 const NavIconButton: React.FC<NavIconButtonProps> = ({ text, iconUrl, link, alt }) => {
     return (
-        <a href={link} className="icon-container">
+        <a href={link} className="icons-icons">
             <img src={iconUrl} alt={alt} />
             <div>{text}</div>
         </a>
