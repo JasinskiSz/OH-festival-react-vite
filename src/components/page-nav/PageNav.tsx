@@ -7,17 +7,17 @@ import "./PageNav.css";
 
 const PageNav: React.FC = () => {
     return (
-        <div className="nav-div">
-            <nav className="navbar-top">
+        <div className="page-nav">
+            <nav className="nav-elements">
                 <img src={logo} alt="Logo" />
-                <div className="navbar-center-items">
+                <div id="buttons">
                     <NavButton link='#' text='Blog' type='link'></NavButton>
                     <NavButton link='#' text='Gdynia' type='dropdown'></NavButton>
                     <NavButton link='#' text='Gdańsk' type='dropdown'></NavButton>
                     <NavButton link='#' text='Archiwum' type='link'></NavButton>
                     <NavButton link='#' text='FAQ' type='link'></NavButton>
                 </div>
-                <div className="icons-container">
+                <div id="icons">
                     <NavIconButton iconUrl={searchIcon} text="Szukaj" link="#" alt="search-icon"></NavIconButton>
                     <NavIconButton iconUrl={userIcon} text="Zaloguj się" link="#" alt="user-icon"></NavIconButton>
                 </div>

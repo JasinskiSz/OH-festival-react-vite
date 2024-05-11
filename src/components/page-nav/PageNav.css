@@ -1,4 +1,4 @@
-.nav-div {
+.page-nav {
     display: flex;
     width: 87.5rem;
     height: 3.75rem;
@@ -11,32 +11,27 @@
     background: var(--White, #FBFDFF);
 }
 
-.navbar-top {
+.nav-elements {
     display: flex;
     width: 82.5rem;
     justify-content: space-between;
     align-items: center;
     flex-shrink: 0;
-
-    /* text properties */
-    color: var(--Purple-Purple-500, #3E1DAA);
-
-    /* Desktop/Arial/Body-Medium */
-    font-family: Arial;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 130%;
-    /* 1.4625rem */
 }
 
-.navbar-top .noDecoration,
-.navbar-top a:link,
-.navbar-top a:visited {
+.nav-elements>img {
+    width: 13.6875rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+}
+
+.nav-elements .noDecoration,
+.nav-elements a:link,
+.nav-elements a:visited {
     text-decoration: none;
 }
 
-.navbar-center-items {
+#buttons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -44,7 +39,7 @@
     align-self: stretch;
 }
 
-.icons-container {
+#icons {
     display: flex;
     justify-content: flex-end;
     align-items: center;
