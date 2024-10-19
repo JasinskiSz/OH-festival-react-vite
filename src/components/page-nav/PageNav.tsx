@@ -9,7 +9,7 @@ const PageNav: React.FC = () => {
     return (
         <div className="page-nav">
             <nav className="nav-elements">
-                <img src={logo} alt="Logo" />
+                <img src={logo} alt="Logo" id="logo"/>
                 <div id="buttons">
                     <NavButton link='#' text='Blog' type='link'></NavButton>
                     <NavButton link='#' text='Gdynia' type='dropdown'></NavButton>
