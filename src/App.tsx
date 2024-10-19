@@ -1,12 +1,12 @@
 import './App.css'
-import Section from './components/section/Section';
+import PageNav from './components/page-nav/PageNav';
 
 function App() {
 
   return (
-    <>
-      <Section></Section>
-    </>
+    <header>
+      <PageNav/>
+    </header>
   )
 }
 
