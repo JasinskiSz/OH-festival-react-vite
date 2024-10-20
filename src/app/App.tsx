@@ -1,5 +1,5 @@
 import './App.css'
-import PageNav from './components/page-nav/PageNav';
+import PageNav from "../layout/page-nav/PageNav";
 
 function App() {
 

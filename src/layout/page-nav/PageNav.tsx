@@ -1,6 +1,6 @@
 import logo from "../../assets/Page/OH-festival-navbar-logo.svg";
-import NavButton from "../nav-button/NavButton";
-import NavIconButton from "../nav-icon-button/NavIconButton";
+import NavButton from "../../components/nav-button/NavButton";
+import NavIconButton from "../../components/nav-icon-button/NavIconButton";
 import searchIcon from "../../assets/Page/Icons/Search.svg";
 import userIcon from "../../assets/Page/Icons/User.svg";
 import "./PageNav.css";
