@@ -13,7 +13,7 @@ const NavButton = ({ type, text, link }: Props) => {
         <a className="nav-link-btn" href={link}>
             <div>
                 <span>{text}</span>
-                {type === "dropdown" ? <img src={dropdownIcon} alt="arrow" /> : null}
+                {type === "dropdown" && <img src={dropdownIcon} alt="arrow" />}
             </div>
         </a>
     )
