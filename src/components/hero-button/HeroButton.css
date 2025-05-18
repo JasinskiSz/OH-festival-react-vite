@@ -1,0 +1,15 @@
+#hero-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    /* Desktop/Cabinet Grotesk/Heading-1 */
+    font-family: "Cabinet Grotesk";
+    font-size: 66px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 90%;
+    /* 59.4px */
+
+    text-decoration: none;
+}
