@@ -1,13 +1,13 @@
 import dropdownIcon from "../../assets/Page/Elements/Arrow.svg";
 import "./NavButton.css";
 
-interface NavButtonProps {
+interface Props {
     type: "dropdown" | "link";
     text: string;
     link: string;
 }
 
-const NavButton: React.FC<NavButtonProps> = ({ type, text, link }) => {
+const NavButton = ({ type, text, link }: Props) => {
 
     return (
         <a className="nav-link-btn" href={link}>

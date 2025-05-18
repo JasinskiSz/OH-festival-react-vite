@@ -5,7 +5,7 @@ import searchIcon from "../../assets/Page/Icons/Search.svg";
 import userIcon from "../../assets/Page/Icons/User.svg";
 import "./PageNav.css";
 
-const PageNav: React.FC = () => {
+const PageNav = () => {
     return (
         <div className="page-nav">
             <nav className="nav-elements">
